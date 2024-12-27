@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="C:\Users\saikr\OneDrive\Desktop\Task 1\portfolli\.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href=" Linkedin: https://www.linkedin.com/in/gujjari-sai-krishna-11676b287">About</a></li>
+                <li><a href=":GUJJARISAIKRISHNA/sai.n">Projects</a></li>
+                <li><a href="https://drive.google.com/file/d/1nBZTW_I9dYhOkDfJ9jCWrezOYi2Xu6R5/view?usp=drivesdk ">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1nBZTW_I9dYhOkDfJ9jCWrezOYi2Xu6R5/view?usp=drivesdk ">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+            <button onclick="showMore('project1')">Show More</button>
+            <div id="project1" class="more-info" style="display: none;">
+                <p>More details about project 1.</p>
+            </div>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+            <button onclick="showMore('project2')">Show More</button>
+            <div id="project2" class="more-info" style="display: none;">
+                <p>More details about project 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my <a href="https://drive.google.com/file/d/1nBZTW_I9dYhOkDfJ9jCWrezOYi2Xu6R5/view?usp=drivesdk " target="_blank">resume</a>.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+    <script src="C:\Users\saikr\OneDrive\Desktop\Task 1\portfolli\script.js"></script>
+</body>
+</html>
